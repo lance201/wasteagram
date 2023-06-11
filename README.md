@@ -2,8 +2,9 @@
 
 Using the Flutter framework and dart, a mobile application is created to enable a coffee shop employee to document daily food waste in the form of posts consisting of a photo, number of leftover items, the current date and the location of the device when the post is created. The application will also display a list of all previous posts. This project is built based on emulation of an android device in Android Studio.
 
-## Emulation of the application
+## Emulation of the mobile app
 Click on the image to be directed to the Youtube video with the demonstration of the running app.
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/PnfP70KAT0I/0.jpg)](http://www.youtube.com/watch?v=PnfP70KAT0I "Wasteagram Flutter Mobile App")
 
 ## Functional requirements
 

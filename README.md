@@ -1,16 +1,17 @@
-# wasteagram
+# Wasteagram
 
-A new Flutter project.
+Using the Flutter framework and dart, a mobile application is created to enable a coffee shop employee to document daily food waste in the form of posts consisting of a photo, number of leftover items, the current date and the location of the device when the post is created. The application will also display a list of all previous posts. This project is built based on emulation of an android device in Android Studio.
 
-## Getting Started
+## Emulation of the application
+Click on the image to be directed to the Youtube video with the demonstration of the running app.
 
-This project is a starting point for a Flutter application.
+## Functional requirements
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+There are several application functional and technical requirements:
+1. Obtain device location inforrmation and integrate the use of camera or photo gallery of the device, each post should have the following attributes:
+   date, imageURL, quantity, latitude and longitude
+2. There is data persistence using Firebase Cloud Storage and a Firestore database from GCP, no data is stored locally in the device.
+3. Provide a List Screen, a Detail Screen and a New Post screen.
+4. Display a circular progress indicator when there are no previous posts to display in the List Screen.
+5. Inclusion of a Semantics widget to aid accessibility.
+6. Codebase should incorporate a model class and a few simple unit tests that test the model class.
